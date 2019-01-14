@@ -1,0 +1,24 @@
+初识JVM
+
+概念
+JVM（Java Virtual Machines）即为Java虚拟机，提供了字节码文件（.class）的运行环境支持。Java语言在不同平台上运行时不需要重新编译，而使用Java虚拟机是实现这一特点的关键。Java虚拟机屏蔽了与具体平台相关的信息，使得Java语言编译程序只需生成在Java虚拟机上运行的目标代码（字节码），就可以在多种平台上不加修改地运行。Java虚拟机在执行字节码时，把字节码解释成具体平台上的机器指令执行。
+
+JDK、JRE、JVM关系
+JDK(Java Development Kit) 是 Java 语言的软件开发工具包(SDK)。JDK是整个Java的核心，包括了Java运行环境JRE、Java工具和Java基础类库。
+JRE（Java Runtime Environment，Java运行环境），包含JVM标准实现及Java核心类库，JRE是运行JAVA程序所必须的环境的集合。
+JVM（Java Virtual Machine）是Java虚拟机的缩写，JVM是一种用于计算设备的规范，它是一个虚构出来的计算机，是通过在实际的计算机上仿真模拟各种计算机功能来实现的。JVM是整个java实现跨平台的最核心的部分，能够运行以Java语言写的程序。
+简单来说，就是JDK包含JRE，JRE包含JVM。
+ 
+JVM构成
+
+Java代码编译和执行的整个过程
+
+
+JVM内存管理及垃圾回收机制
+
+
+
+参考文章
+https://www.cnblogs.com/mambahyw/p/7978832.html
+https://www.cnblogs.com/lishun1005/p/6019678.html
+https://blog.csdn.net/smithdoudou88/article/details/43152233?utm_source=blogxgwz1
